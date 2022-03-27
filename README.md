@@ -1,20 +1,35 @@
-# Interro surprise !!!
-Après avoir découvert les outils et concepts de base du Cloud d'AWS, vous êtes prêt.e.s à tenter votre chance sur de nouvelles dimensions. Voici sur quoi vous serez évalué.e.s.
+# L'infonuagique (ou... le Cloud)
+> Le Cloud permet de travailler pratiquement l'ensemble des compétences du référentiel dans un contexte spécifique.
+## WTF* ?
+Le Cloud c'est... bin... un paquet de trucs. Merci de jeter un oeil à ces quelques documents pour vous faire une idée plus précise. Nous commençons avec un peu de culture générale :
+- [merci de lire les données génériques essentielles](https://fr.wikipedia.org/wiki/Cloud_computing)
+Le Cloud induit le aaS** que vous pouvez survoler avec ces quelques liens : 
+- [Un peu de SaaS](https://fr.wikipedia.org/wiki/Software_as_a_service)
+- [Un peu de PaaS](https://fr.wikipedia.org/wiki/Platform_as_a_service)
+- [Un peu de IaaS](https://fr.wikipedia.org/wiki/Infrastructure_as_a_service)
+- [Un peu de Faas et de serverless]
+- [et de DaaS](https://fr.wikipedia.org/wiki/Data_as_a_service)
 
-## Des images en backend
-A partir d'un front pubié sur AWS, donnez la possibilité aux adminstrateurs de votre site d'envoyer des images sur un compartiment S3. C'est tout !  
-Si vous avez fait ça vous aurez la moyenne ou presque.  
-Ensuite, faites votre choix :  
+Mais il induit aussi des propositions contre intuitives comme les architectures sans serveurs (Serverless) :
+- [Jetez un oeil à ces explications](https://www.simform.com/serverless-architecture-guide/)
 
-### Redimensionner les images
-Déclenchez une fonction pour créer une vignette automatiquement à partir d'une image qui vient d'être chargée (regardez du côté des Lambdas et des Triggers sur S3).  
+Les principaux opérateurs, leaders du marché sont Amazon Web Servcies (AWS), Microsoft Azure et Google Cloud Platform (GCP). Dans le cadre de ce cours nous aborderons principalement AWS et OVH Public Cloud. Azure comme GCP devraient venir faire des incursions.
 
-### De la sécurité
-Créez un système d'identification à partir des outils d'AWS. Vous serez aidé.e.s avec Cognito et peut-être Amplify.  
+## Comment choisir sont Cloud ?
+[Il y a un site, ici, qui a fait une partie du job pour nous](https://www.cloudcomparisontool.com/).
 
-## Modalités de l'examen
-Agissez en groupes de deux à trois personnes. L'organisation sera faite par votre serviteur pour équilibrer les forces.
-Pour l'organisation, il ne s'agit pas de créer une gestion de projet mais de rester en contact avec vos membres du groupe pour avancer collectivement. La note finale sera attribuée au groupe en évaluant le projet le moins abouti. Restez solidaires.  
-Vous êtes autorisés à échanger des informations entre vous sauf avec Alaa et Oussama. Ils constituent un binôme qui est votre adversaire direct, à tous.  
-Alaa et Oussama, vous êtes un groupe face à la promotion. Vous devez faire mieux à vous deux que tous les autres.
-Les chronos sont lancés. Normalement 3h30.
+### Avant de commencer
+Il vous faut des comptes chez des opérateurs. Commençons avec AWS. Pour ce faire, deux options :
+- vous vous inscrivez par vous même,
+- vous acceptez l'invitation qui vous a été envoyée pour rejoindre notre espace Educate
+- vous faites les deux.
+
+Sans ça, point de salut.
+### Quelques considérations complémentaires
+#### Les zones
+La redondance et l'accessibilité des données nécessite des infrastructures réparties dans le monde entier. Lorsque vous utilisez des services, [vous devrez spécifier une zone](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
+#### Le développement durable
+[Le Cloud est plus vert](https://aws.amazon.com/fr/about-aws/sustainability/?p=ngi&loc=5). C'est une considération majeure à considérer. L'avenir sera marqué par cette notion. La maîtriser (nous y reviendrons) favorisera votre employabilité.
+
+* Wouhaa Trop Fou !
+** Non, ça n'était pas un jeu de mot...
